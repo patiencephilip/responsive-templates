@@ -1,6 +1,3 @@
-# responsive-templates
-Responsive templates that will really really come in handy. :)
-
 # ✦ Responsive Templates
 
 **Free, open-source HTML/CSS/JS templates — no frameworks, no dependencies, no build steps.**
