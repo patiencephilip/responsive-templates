@@ -1,6 +1,6 @@
 # Contributing to Responsive Templates
 
-Thanks for wanting to contribute — this project grows through the community.
+Thanks for wanting to contribute; this project grows through the community.
 
 ## What we're looking for
 
@@ -13,14 +13,19 @@ Thanks for wanting to contribute — this project grows through the community.
 - **No frameworks** — pure HTML, CSS, and vanilla JavaScript only
 - **No npm / build tools** — open `index.html` and it works
 - **Fully responsive** — tested at mobile (375px), tablet (768px), and desktop (1280px)
-- **Self-contained** — one HTML file, or a folder with clearly separated HTML/CSS/JS
+- **Config-driven** — users edit `config.js` only, never the HTML
 - **Original design** — not a copy or port of an existing template
 
 ## How to submit
 
 1. Fork the repo
 2. Create a branch: `git checkout -b template/your-template-name`
-3. Add your template in a new folder: `your-template-name/index.html`
+3. Add your template in a new folder with both files:
+   ```
+   your-template-name/
+   ├── index.html   ← the template (users don't edit this)
+   └── config.js    ← all user details go here
+   ```
 4. Update the main `README.md` to list your template (use the existing format)
 5. Open a pull request with:
    - A short description of the template
